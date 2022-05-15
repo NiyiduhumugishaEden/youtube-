@@ -7,9 +7,9 @@ function Modal(){
    return(
       <div className='bg-white m-32  text-xl'>
 
-         {/* <h1>Hey click here to get a modal</h1>
+       <h1>Hey click here to get a modal</h1>
          <button className='bg-blue-400 p-2 rounded-lg ' onClick={()=>{setOpenModal(true)}}>Click here</button>
-         {openModal && <UseModal close={setOpenModal}/>} */}
+         {openModal && <UseModal close={setOpenModal}/>} 
       </div>
    )
 }

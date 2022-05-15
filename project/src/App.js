@@ -164,7 +164,7 @@ React.useEffect(()=>{
 
    return (
       <div>
-   <div className=''>
+   <div className=' w-screen h-full'>
    <NavBar header='Movies' />
      <SearchBar search={search}  setSearch={setSearch}/>
    </div>

@@ -12,7 +12,7 @@ function Search() {
             return item.title.toLowerCase().includes(getData)
    })
   return (
-    <div className='text-2xl m-10'>
+    <div className='text-2xl m-10 bg'>
 
        <h1 className='text-2xl m-4' >Search Food</h1>
        <input
