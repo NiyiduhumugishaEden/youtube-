@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 
 function SearchBar(props){
-   const Url = 'https://spotify23.p.rapidapi.com/search/'
+   // const Url = 'https://spotify23.p.rapidapi.com/search/'
 
    return (
       <div>

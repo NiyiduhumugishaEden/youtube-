@@ -147,7 +147,7 @@ const [movies,setMovies]=React.useState([  {
 }]);
 const [search,setSearch]=React.useState([' ' ]);
 
-
+ 
 const getMovies=async(search)=>{
   const response=await fetch(`http://www.omdbapi.com/?s=${search}&apikey=6e8bfaf5`);
  const res=await response.json()
@@ -164,7 +164,7 @@ React.useEffect(()=>{
 
    return (
       <div>
-   <div className=' w-screen h-full'>
+   <div className='w-screen h-full'>
    <NavBar header='Movies' />
      <SearchBar search={search}  setSearch={setSearch}/>
    </div>
